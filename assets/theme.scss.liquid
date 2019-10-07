@@ -118,7 +118,7 @@
   @if $target == 0 {
     @return 0;
   }
-  @return $target / $context + 0em;
+  @return $target / $context;
 }
 
 @function color-control($color) {
@@ -3092,8 +3092,8 @@ $slick-dot-character: '\2022';
 
     &:active,
     &:focus {
-      background-color: adaptive-color($colorBody, 5%);
-      border-color: adaptive-color($colorBody, 5%);
+      background-color: adaptive-color($colorBody, 100%);
+      border-color: adaptive-color($colorBody, 100%);
     }
   }
 

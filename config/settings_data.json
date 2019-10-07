@@ -17,7 +17,7 @@
         "color_drawer_button": "#7737bd",
         "color_drawer_button_text": "#ffffff",
         "type_header_family": "quicksand_n7",
-        "type_header_base_size": "38",
+        "type_header_base_size": "38px",
         "type_header_border_thickness": "1px",
         "type_accent_family": "roboto_n7",
         "type_accent_transform": true,
