@@ -3102,15 +3102,13 @@ $slick-dot-character: '\2022';
   input[type='radio']:checked + label {
     border-color: $colorHeadings;
     color: $colorHeadings;
+    pointer-events:none;
   }
 
   //style label on input focus
   input[type='radio']:focus + label {
     background-color: $colorBody;
-    color: $colorHeadings;
-    &:hover {
-        background-color: $colorBody;
-    }
+    pointer-events:none;
   }
 }
 
