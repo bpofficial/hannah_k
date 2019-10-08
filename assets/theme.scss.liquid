@@ -3093,7 +3093,7 @@ $slick-dot-character: '\2022';
     &:hover {
       border-color: rgba(0, 0, 0, 0);
       background-color: $colorHeadings;
-      color: white;
+      color: $colorBodyP;
       transition: background-color 5ms ease-in;
     }
   }
@@ -3106,8 +3106,11 @@ $slick-dot-character: '\2022';
 
   //style label on input focus
   input[type='radio']:focus + label {
-    background-color: white;
+    background-color: $colorBody;
     color: $colorHeadings;
+    &:hover {
+        background-color: $colorBody;
+    }
   }
 }
 
