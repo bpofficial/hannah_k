@@ -3090,9 +3090,7 @@ $slick-dot-character: '\2022';
       @include transform(rotate(45deg));
     }
 
-    &:active,
-    &:hover,
-    &:focus {
+    &:hover {
       border-color: rgba(0, 0, 0, 0);
       background-color: $colorHeadings;
       color: white;
@@ -3107,7 +3105,7 @@ $slick-dot-character: '\2022';
 
   //style label on input focus
   input[type='radio']:focus + label {
-    background-color: adaptive-color($colorBody, 5%);
+    background-color: white;
   }
 }
 
