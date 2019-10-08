@@ -3077,7 +3077,7 @@ $slick-dot-character: '\2022';
     font-style: normal;
     background-color: $colorBody;
     border: 1px solid $colorBody;
-    color: $colorBtnSecondaryText;
+    color: $colorBtnSecondaryAccent;
     transition: background-color 0.1s ease-in;
 
     &.disabled:before {
@@ -3093,21 +3093,21 @@ $slick-dot-character: '\2022';
 
     &:hover {
       border-color: rgba(0, 0, 0, 0);
-      background-color: $colorBtnSecondaryText;
+      background-color: $colorBtnSecondaryAccent;
       color: $colorBody;
     }
   }
 
   //style selected radio button's label
   input[type='radio']:checked + label {
-    border-color: $colorBtnSecondaryText;
-    color: $colorBtnSecondaryText;
+    border-color: $colorBtnSecondaryAccent;
+    color: $colorBtnSecondaryAccent;
     pointer-events:none;
   }
 
   //style label on input focus
   input[type='radio']:focus + label {
-    background-color: $colorBtnSecondaryText;
+    background-color: $colorBtnSecondaryAccent;
     pointer-events:none;
   }
 }
