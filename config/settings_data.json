@@ -397,7 +397,7 @@
                     "type": "header",
                     "settings": {
                         "logo_max_width": "250",
-                        "search": "modal",
+                        "search": "none",
                         "main_menu_link_list": "main-menu",
                         "show_announcement": false,
                         "color_bg": "#290c49",
