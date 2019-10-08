@@ -1347,12 +1347,13 @@ html input[disabled] {
   background-color: $colorBody;
   border: 1px solid $colorBtnSecondaryAccent;
   color: $colorBtnSecondaryAccent;
+  transition: background-color 0.1s ease-in;
 
   &:hover,
   &:focus {
-    background-color: $colorBody;
-    border: 1px solid $colorBtnSecondaryAccentHover;
-    color: $colorBtnSecondaryAccentHover;
+    background-color: $colorBtnSecondaryAccent;
+    border-color: rgba(0, 0, 0, 0);
+    color: $colorBody;
   }
 
   &:active {
